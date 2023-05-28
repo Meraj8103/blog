@@ -56,6 +56,6 @@ $mailheader .='Content-Type: text/html; Charset=ISO-8859-1'."\r\n";
 
 mail($recipient, $subject, $content, $mailheader) or die("Something worng,please try after some time! Thank you And sorry");
 echo "Email sent!";
-header('location:https://blog.birdlights.com/contect-us');
+header('location:https://domain.com/contect-us');
 ?>
 
